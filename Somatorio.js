@@ -5,8 +5,4 @@ function soma(numbers){
     }
     return total;
 }
-
-console.log(soma([1, 2, 3, 4, 5]));
-console.log(soma([10, 20, 30]));
-
-module.exports = soma
+module.exports = soma;
