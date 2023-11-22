@@ -1,9 +1,7 @@
-const { default: expect } = require('expect');
-const soma = require('../funcoes/Somatorio')
+const somatorio = require('../Somatorio');
 
-test('calcula corretamente o somatório de um array de números', () => {
-    expect(1, 2, 3, 4, 5).toBe(15)
-});
-test('calcula corretamente o somatório de um array com números maiores', () => {
-    expect(10, 20, 30).toBe(60);
+test('Calcula o somatório corretamente', () => {
+  expect(somatorio(5)).toBe(15); // O somatório de 1 a 5 é 15
+  expect(somatorio(10)).toBe(55); // O somatório de 1 a 10 é 55
+  expect(somatorio(3)).toBe(6); // O somatório de 1 a 3 é 6
 });
