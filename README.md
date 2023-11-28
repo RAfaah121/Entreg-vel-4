@@ -10,6 +10,6 @@ Como executar código de teste:
 
 5 - Executar comando "npm install" para instalar as dependências do projeto Node.js no package.json
 
-6 - Instalar o Jest com o comando "install --save-dev jest" para adicionar como dependência no arquivo package.json
+6 - Instalar o Jest com o comando "npm install --save-dev jest" para adicionar como dependência no arquivo package.json
 
 7 - Para realizar os testes dos códigos execute o comando "npm test"
