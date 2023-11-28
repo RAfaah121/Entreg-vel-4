@@ -1,4 +1,4 @@
-const isPrime = require('../Primo');
+const isPrime = require('../Entreg-vel-4-main/Primo');
 
 test('Verifica se um número é primo', () => {
   expect(isPrime(1)).toBe(false);

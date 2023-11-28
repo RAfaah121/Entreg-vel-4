@@ -1,4 +1,4 @@
-function verificarPrimo(numero) {
+function isPrime(numero) {
   var n = parseInt(numero);
   var primo = true;
 
@@ -16,4 +16,4 @@ function verificarPrimo(numero) {
   return primo;
 }
 
-module.exports = verificarPrimo;
+module.exports = isPrime;
